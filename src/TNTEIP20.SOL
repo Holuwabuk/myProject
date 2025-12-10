@@ -1,0 +1,18 @@
+// SPDX-License-Identifier:MIT
+pragma solidity 0.8.30;
+contract TNTEIP20 {
+    
+    function name () external pure returns (string memory){
+        return "TNTEIP20 TOKEN";
+    }
+    function symbol() external pure returns (string memory) {
+        return "TNT20";
+    }
+    function decimals () external pure returns(uint 8){
+        return 18;
+    }
+    function totalSupply() external pure returns (uint256){
+        return 1000000 *10**18;
+    }
+
+}
